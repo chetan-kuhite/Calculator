@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +23,11 @@
     justify-content: center;
 }
 .main{    
-    padding: 11.6vh 0px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* padding: 11.6vh 0px; */
     background-color: #4d8bc8;
 }
 #first{
@@ -101,3 +107,28 @@ input{
     height: 50px;
     width: 50px;
 } */
+
+@media only screen and (max-width: 600px) {
+    #first{
+        height: 60px;
+    }
+    td{
+        height: 12vw;
+        width: 12vw;
+        background-color: rgb(93, 182, 222);
+        border-radius: 12px;
+    }
+    .display-box1{
+        height: 20px;
+        width: 70vw;
+        cursor:not-allowed;
+    }
+    .display-box2{
+        height: 50px;
+        width: 70vw;
+        cursor:not-allowed;
+    }
+    table{
+        border-spacing: 5px;
+    }
+}
