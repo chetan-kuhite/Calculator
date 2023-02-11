@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    height: 25px;
+    padding: 6px 0px;
+}
+#pastresult{
+    font-size: 12px;
+}
+.lower{
+    /* height: 25px; */
+    padding: 8px 0px;
+}
+.lower input[type=text] {
+    text-align: right;
+ }
+.container{
+    display: flex; 
+    justify-content: center;
+}
+.main{    
+    padding: 11.6vh 0px;
+    background-color: #4d8bc8;
+}
+#first{
+    height: 60px;
+}
+td{
+    height: 74px;
+    width: 74px;
+    background-color: rgb(93, 182, 222);
+    border-radius: 12px;
+}
+table{
+    /* height: 780px; */
+    /* width: 600px; */
+    padding: 13px;
+    border: 1px solid rgb(72, 174, 200);
+    border-spacing: 13px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #ebf5ff;
+}
+input{
+    background: none;
+    border: none;
+    cursor:pointer;
+    height: inherit;
+    width: inherit;
+}
+.display-box1{
+    height: 20px;
+    width: 388px;
+    cursor:not-allowed;
+}
+.display-box2{
+    height: 50px;
+    width: 388px;
+    cursor:not-allowed;
+}
+.bule1 input{
+    color: #193a5f;
+    font-weight: 850;
+    font-size: 22px;
+}
+.bule1{
+    color: #193a5f;
+    background-color: #cbe5fe;
+}
+.bule2 input{
+    color: #4f8ac8;
+    font-weight: 650;
+    font-size: 20px;
+}
+.bule2{
+    background-color: #a2d0fa;
+}
+.bule3 input{
+    color: #ebf5ff;
+    font-weight: 550;
+    font-size: 20px;
+}
+.bule3{
+    background-color: #4e8ac7;
+}
+.bule4 input{
+    color: #193a5f;
+    font-weight: 600;
+    font-size: 45px;
+}
+.bule4{
+    color: #193a5f;
+    background-color: #cbe5fe;
+}
+/* button{
+    background: none;
+    border: none;
+    cursor:pointer;
+    height: 50px;
+    width: 50px;
+} */
